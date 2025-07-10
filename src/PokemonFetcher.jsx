@@ -28,7 +28,7 @@ const PokemonFetcher = () => {
         const fetchedPokemones = [];
         const pokemonIds = new Set(); 
 
-        while (pokemonIds.size < 7) { 
+        while (pokemonIds.size < 20) { 
           const randomId = Math.floor(Math.random() * 898) + 1; 
           pokemonIds.add(randomId);
         }
